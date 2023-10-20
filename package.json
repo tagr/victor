@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "name": "victor",
+  "description": "Memorial page for Victor Merhaut",
+  "version": "1.0.0",
+  "main": "dist/index.html",
+  "dependencies": {
+
+  },
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/main.css -o ./dist/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "http-server -p 81"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tagr/victor.git"
+  },
+  "author": "Andy Merhaut <@tagr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tagr/victor/issues"
+  },
+  "homepage": "https://github.com/tagr/victor#readme"
+}
