@@ -568,6 +568,10 @@ video {
   }
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -667,10 +671,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.italic {
-  font-style: italic;
 }
 
 .leading-none {
@@ -837,7 +837,17 @@ article {
   }
 }
 
+.anchor {
+  left: -1rem;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
 @media (min-width: 640px) {
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
   .sm\:inline {
     display: inline;
   }
